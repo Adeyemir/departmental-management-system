@@ -338,6 +338,7 @@ def add_student_save(request):
         form = AddStudentForm(request.POST, request.FILES)
 
         if form.is_valid():
+            matric_no = form.cleaned_data["matric_no"]
             first_name = form.cleaned_data['first_name']
             last_name = form.cleaned_data['last_name']
             username = form.cleaned_data['username']
@@ -361,7 +362,7 @@ def add_student_save(request):
 
 
             try:
-                user = CustomUser.objects.create_user(username=username, password=password, email=email, first_name=first_name, last_name=last_name, user_type=3)
+                user = CustomUser.objects.create_user(username=username,matric_no=matric_no, password=password, email=email, first_name=first_name, last_name=last_name, user_type=3)
                 user.students.address = address
 
                 course_obj = Courses.objects.get(id=course_id)

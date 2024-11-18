@@ -2,7 +2,6 @@
 
 This is a Student Attendance System Developed for Educational Purpose using Python (Django).
 
-And if you like this project then ADD a STAR ⭐️ to this project 👆
 
 ## Features of this Project
 
@@ -164,7 +163,7 @@ Password: student
 
 Coded by @ritikBanger, @mohitTaimni, and @ronitKhowal
 
-Developed for Poornima Group, Jaipur
+Developed for Poornima Group, Ojo
 
 Copyright 2022 @ritikbanger
 
