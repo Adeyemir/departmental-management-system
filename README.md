@@ -17,7 +17,7 @@ This is a Student Attendance System Developed for educational purposes using Pyt
 8. Review and Reply to Student/Staff Feedback
 9. Review (Approve/Reject) Student/Staff Leave
 
-### B. Staff/Teachers Can
+### B. Lecturers/Teachers Can
 
 1. See the Overall Summary Charts related to their students, their subjects, leave status, etc.
 2. Take/Update Students' Attendance
